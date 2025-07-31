@@ -56,10 +56,12 @@ scRNAseq-monocytes-MI-CCD/
 │   ├── 12_volcano_plots.R
 │   ├── 13_combined_expression_plots.R
 │
-├── data/                    # Processed Seurat objects or sample data only
-│   └── Mono_object.rds      # Not uploaded if unpublished
+├── data/                    # Processed Seurat objects or sample data
+│   └── Mono_object.rds      # Not publicly available until manuscript publication
 │
-├── README.md                # Main project documentation (you’re reading it)
-├── LICENSE                  # Optional: e.g. MIT or GPL-3.0
-└── .gitignore               # Ignore Rproj, large files, temp outputs
+├── README.md                # Main project documentation
+├── LICENSE                  # MIT License
+└── .gitignore               # Used to hide results and data files from GitHub
 ```
+
+> 🔒 *Note: `figures/` and `results/` directories are excluded until manuscript can be made publicly available.*
