@@ -64,4 +64,4 @@ scRNAseq-monocytes-MI-CCD/
 └── .gitignore               # Used to hide results and data files from GitHub
 ```
 
-> 🔒 *Note: `figures/` and `results/` directories are excluded until manuscript can be made publicly available.*
+🔒 *Note: `figures/` and `results/` directories are excluded until manuscript can be made publicly available.*
