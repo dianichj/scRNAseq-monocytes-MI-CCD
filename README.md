@@ -14,7 +14,7 @@ The scRNA-seq data processing and analysis were conducted in two main phases:
   - Merging of samples using **AnnData** tools.
   - Normalization based on the [Galaxy Scanpy tutorial](https://training.galaxyproject.org/training-material/topics/single-cell/tutorials/scrna-scanpy-pbmc3k/tutorial.html).
 
-### 2. **Downstream analysis in R**
+### 2. **Downstream analysis in R and Galaxy**
 - AnnData files were converted to Seurat objects using **sceasy** and **reticulate**.
 - Processed using **Seurat v5.0.3**, **SCTransform**, **UMAP**, **Louvain clustering**, and **CCA** for batch correction.
 - Cell type annotation was done based on canonical markers.
